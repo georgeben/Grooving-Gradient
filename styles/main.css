@@ -1,0 +1,51 @@
+body{
+    font-family: sans-serif;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+h1, h3{
+    text-align: center;
+}
+
+h1{
+    color: aliceblue;
+    text-shadow: 2px 2px 5px #000;
+}
+
+.colour-selector{
+    width: 60%;
+    margin: auto;
+}
+
+.colour-selector p{
+    float: left;
+}
+
+#bg_gradient{
+    clear: both;
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+input[type="color"]{
+    margin: 0 10px;
+    border: 0;
+}
+
+@media(max-width:655px){
+    .colour-selector{
+    width: 50%;
+}
+
+.colour-selector p{
+    float: none;
+}
+    
+}
